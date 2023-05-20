@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  dlna:
+    image: ivanmelgar/ubuntu-dlna
+    network_mode: host
+    volumes:
+      - "./video:/var/lib/minidlna"
